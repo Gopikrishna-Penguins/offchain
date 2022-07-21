@@ -1,0 +1,143 @@
+.contact{
+    color: black;
+    width: auto;
+    height: 400px;
+    text-align: center;
+    padding: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1em;
+    background-color: orange;
+    border-radius: 13px;
+    img{
+        width: 350px;
+        height: 380px;
+    }
+    .leftcon{
+        background-color: rgb(3, 56, 245);
+        width: 600px;
+        height: 100%;
+        display: grid;
+        border-radius: 8px;
+        h3{
+            font-size: 2em;
+            color: rgb(255, 136, 0);
+        }
+        .fields{
+            width: 300px;
+            height: 40px;
+            color: black;
+            padding: 8px;
+            border-radius: 10px;
+            border-color: aqua;
+        }
+        .fields-msg{
+            width: 300px;
+            height: 80px;
+            color: black;
+            padding: 8px;
+            border-radius: 10px;
+            border-color: aqua;
+        }
+        
+       
+    }
+    @media (max-width:767px) {
+        background-color: rgb(167, 175, 19);
+        color: white;
+        width: 100%;
+        height: 450px;
+
+        h1{
+            font-size: 16px;
+        }
+        p{
+            font-size: 14px;
+        }
+        img{
+            padding: 2em;
+            width: 160%;
+            height: 90%;
+            margin: 0;
+        }
+        .leftcon{
+            background-color: rgb(3, 56, 245);
+            width: 400px;
+            height: 100%;
+            display: grid;
+            border-radius: 4px;
+            h3{
+                font-size: 2em;
+                color: rgb(255, 136, 0);
+            }
+            .fields{
+                width: 200px;
+                height: 40px;
+                color: black;
+                padding: 8px;
+                margin: 4px;
+                border-radius: 10px;
+                border-color: aqua;
+            }
+            .fields-msg{
+                width: 200px;
+                height: 90px;
+                color: black;
+                padding: 4px;
+                border-radius: 10px;
+                border-color: aqua;
+            }
+            
+           
+        }
+    }
+    @media(max-width:1024px){
+        background-color: rgb(167, 175, 19);
+        color: white;
+        width: 100%;
+        height: 450px;
+
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+        img{
+            padding: 2em;
+            width: 160%;
+            height: 90%;
+            margin: 0;
+        }
+        .leftcon{
+            background-color: rgb(3, 56, 245);
+            width: 400px;
+            height: 100%;
+            display: grid;
+            border-radius: 4px;
+            h3{
+                font-size: 2em;
+                color: rgb(255, 136, 0);
+            }
+            .fields{
+                width: 200px;
+                height: 40px;
+                color: black;
+                padding: 8px;
+                margin: 4px;
+                border-radius: 10px;
+                border-color: aqua;
+            }
+            .fields-msg{
+                width: 200px;
+                height: 90px;
+                color: black;
+                padding: 4px;
+                border-radius: 10px;
+                border-color: aqua;
+            }
+            
+           
+        }
+    }
+}

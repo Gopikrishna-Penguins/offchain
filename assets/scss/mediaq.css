@@ -1,0 +1,21 @@
+@media (max-width: 1024px) {
+  .about {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .about h1 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 767px) {
+  .about {
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 16px;
+  }
+  .about h1 {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=mediaq.css.map */

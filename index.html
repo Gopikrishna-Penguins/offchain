@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Code Boss</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="./assets/scss/x.css">
+	<link rel="stylesheet" href="./assets/css/main.css" />
+	<link rel="stylesheet" href="./assets/css/evo-calendar.midnight-blue.css">
+	<link rel="stylesheet" href="./assets/css/evo-calendar.midnight-blue.min.css">
+	<link rel="stylesheet" href="/assets/css/evo-calendar.min.css">
+	<link rel="stylesheet" href="./assets/css/evo-calendar.orange-coral.css">
+	<link rel="stylesheet" href="./assets/css/evo-calendar.orange-coral.min.css">
+	<link rel="stylesheet" href="./assets/css/evo-calendar.royal-navy.css">
+	<link rel="stylesheet" href="./assets/css/evo-calendar.royal-navy.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/css/evo-calendar.min.css"/>
+	<link rel="stylesheet" href="./assets/scss/contact.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h2 style="color:red">@<span style="color:white">OFF</span>Chain</h2>
+			<nav>
+				<a href="#">Events</a>
+				<a href="#">About Us</a>
+				<a href="#">Contact</a>
+			</nav>
+			<button class="hamburger">
+				<div class="bar"></div>
+			</button>
+		</div>
+	</header>
+	<nav class="mobile-nav">
+		<a href="#">Events</a>
+		<a href="#">About Us</a>
+		<a href="#">Contact</a>
+	</nav>
+	<main>
+		<section class="banner">
+			<div class="container">
+				<h1>
+					You're here to find out <br class="hide-mob" />
+					<span>OFFChain</span> Events
+				</h1>
+
+				<h3>OffChain is a global community for old 
+					and new blockchain enthusiasts to discuss the latest 
+					and meet like-minded people. OffChain welcomes anyone 
+					from blockchain developers to VC’s to miners to quant 
+					traders to anyone who just owns a little bitcoin or wants to learn more.</h3>
+
+				<a href="#" class="button">Find out more</a>
+			</div>
+		</section><br>
+		<section class="Events">
+			<h2 style="color: rgb(185, 165, 202); background-color: blueviolet;font-style: normal;text-transform: none;">Here you can the Events</h2>
+			<div id="calendar"></div>
+		</section><br>
+	</main>
+<section class="about">
+		<div class="left">
+			<h1>About Us</h1>
+			<br>
+			<p>
+				OffChain meetups are for socialising and learning from one another so that we can stay up to date with 
+				the latest news and developments in the blockchain space. Going OffChain provides a casual space to not 
+				only talk about crypto but also make friends with people that have a very similar interest to us.
+			</p><br>
+			
+			<p>
+				It’s also a great opportunity for those new to the blockchain space to learn from 
+				the old timers as they can catch them during their downtime.
+			</p><br>
+			<img src="./assets/images/pexels-pavel-danilyuk-7869108.jpg" alt="vision">
+			<br>
+		</div>
+		<div class="right">
+			<img src="./assets/images/pexels-antoni-shkraba-7144262.jpg" alt="vision">
+			<p>
+				OffChain was started in 2017 with the vision of bringing people together to connect on a human level. 
+				Our regular meetups are very casual with no speakers or sponsors but we have been known to have a speaker or panel from time-to-time.
+			</p>
+			<p>Feel free to contact us for more information or to join the groups at info@offchain.social</p>
+			<br><p>Global Telegram Group: <a href="https://t.me/+oP-XBIf_8QgzMTJl" style="color:rgb(255, 51, 0);">https://t.me/+oP-XBIf_8QgzMTJl</a> </p>
+			<br><p>If you would like to join the WhatsApp, WeChat or Telegram group for the city you live in or to join one of the 
+				topic groups like NFTs, Solana, Memes, Airdrops, Polygon, Solana, Avalanche, Luna etc, 
+				contact us at <a href="hello@offchain.social" style="color:rgb(255, 51, 0);">hello@offchain.social</a></p>
+		</div>
+</section>
+<section class="contact">
+    <div class="leftcon">
+        <h3>Contact us</h3>
+        <h4>Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="fields" placeholder="Enter your Name"></h4>
+        <h4>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" class="fields" placeholder="Enter your mail address"></h4>
+        <h4>Message: <input type="text" class="fields-msg" placeholder="Write a Message to Me"></h4><br>
+        <div class="btn">
+			<button style="width: 100px;height: 40px;border-radius: 20px;">Send</button>
+        	<button style="width: 100px;height: 40px;border-radius: 20px;">Clear</button>
+		</div>
+		
+    </div>
+    <div class="rightcon">
+        <img src="./assets/images/mail.svg" alt="contact me">
+    </div>
+</section>
+	
+	<script src="./assets/js/main.js"></script>	
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/js/evo-calendar.min.js"></script>  
+<script>
+	$("#calendar").evoCalendar({
+		calendarEvents: 
+		[
+      {
+        id: 'bHay68s', // Event's ID (required)
+        name: "New Year", // Event name (required)
+        date: "January/1/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+		id:'v',
+        name: "Vacation Leave",
+        badge: "02/13 - 02/15", // Event badge (optional)
+        date: ["February/13/2022", "February/15/2022"], // Date range
+        description: "Vacation leave for 3 days.", // Event description (optional)
+        type: "event",
+        color: "#63d867" // Event custom color (optional)
+      }
+    ]
+	});
+  </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+.contact {
+  color: black;
+  width: auto;
+  height: 400px;
+  text-align: center;
+  padding: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 1em;
+  background-color: orange;
+  border-radius: 13px;
+}
+
+.contact img {
+  width: 350px;
+  height: 380px;
+}
+
+.contact .leftcon {
+  background-color: #0338f5;
+  width: 600px;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 8px;
+}
+
+.contact .leftcon h3 {
+  font-size: 2em;
+  color: #ff8800;
+}
+
+.contact .leftcon .fields {
+  width: 300px;
+  height: 40px;
+  color: black;
+  padding: 8px;
+  border-radius: 10px;
+  border-color: aqua;
+}
+
+.contact .leftcon .fields-msg {
+  width: 300px;
+  height: 80px;
+  color: black;
+  padding: 8px;
+  border-radius: 10px;
+  border-color: aqua;
+}
+
+@media (max-width: 767px) {
+  .contact {
+    background-color: #a7af13;
+    color: white;
+    width: 100%;
+    height: 450px;
+  }
+  .contact h1 {
+    font-size: 16px;
+  }
+  .contact p {
+    font-size: 14px;
+  }
+  .contact img {
+    padding: 2em;
+    width: 160%;
+    height: 90%;
+    margin: 0;
+  }
+  .contact .leftcon {
+    background-color: #0338f5;
+    width: 400px;
+    height: 100%;
+    display: -ms-grid;
+    display: grid;
+    border-radius: 4px;
+  }
+  .contact .leftcon h3 {
+    font-size: 2em;
+    color: #ff8800;
+  }
+  .contact .leftcon .fields {
+    width: 200px;
+    height: 40px;
+    color: black;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 10px;
+    border-color: aqua;
+  }
+  .contact .leftcon .fields-msg {
+    width: 200px;
+    height: 90px;
+    color: black;
+    padding: 4px;
+    border-radius: 10px;
+    border-color: aqua;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    background-color: #a7af13;
+    color: white;
+    width: 100%;
+    height: 450px;
+  }
+  .contact h1 {
+    font-size: 20px;
+  }
+  .contact p {
+    font-size: 14px;
+  }
+  .contact img {
+    padding: 2em;
+    width: 160%;
+    height: 90%;
+    margin: 0;
+  }
+  .contact .leftcon {
+    background-color: #0338f5;
+    width: 400px;
+    height: 100%;
+    display: -ms-grid;
+    display: grid;
+    border-radius: 4px;
+  }
+  .contact .leftcon h3 {
+    font-size: 2em;
+    color: #ff8800;
+  }
+  .contact .leftcon .fields {
+    width: 200px;
+    height: 40px;
+    color: black;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 10px;
+    border-color: aqua;
+  }
+  .contact .leftcon .fields-msg {
+    width: 200px;
+    height: 90px;
+    color: black;
+    padding: 4px;
+    border-radius: 10px;
+    border-color: aqua;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
